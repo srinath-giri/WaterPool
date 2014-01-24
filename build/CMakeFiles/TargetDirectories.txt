@@ -1,0 +1,4 @@
+/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/application/CMakeFiles/application.dir
+/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math/CMakeFiles/math.dir
+/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/p1/CMakeFiles/p1.dir
+/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/scene/CMakeFiles/scene.dir
