@@ -4,11 +4,11 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/math/camera.cpp" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math/CMakeFiles/math.dir/camera.cpp.o"
-  "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/math/color.cpp" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math/CMakeFiles/math.dir/color.cpp.o"
-  "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/math/matrix.cpp" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math/CMakeFiles/math.dir/matrix.cpp.o"
-  "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/math/quaternion.cpp" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math/CMakeFiles/math.dir/quaternion.cpp.o"
-  "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/math/vector.cpp" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math/CMakeFiles/math.dir/vector.cpp.o"
+  "/media/eagleone/Data/Git Projects/CG/p1/src/math/camera.cpp" "/media/eagleone/Data/Git Projects/CG/p1/build/math/CMakeFiles/math.dir/camera.cpp.o"
+  "/media/eagleone/Data/Git Projects/CG/p1/src/math/color.cpp" "/media/eagleone/Data/Git Projects/CG/p1/build/math/CMakeFiles/math.dir/color.cpp.o"
+  "/media/eagleone/Data/Git Projects/CG/p1/src/math/matrix.cpp" "/media/eagleone/Data/Git Projects/CG/p1/build/math/CMakeFiles/math.dir/matrix.cpp.o"
+  "/media/eagleone/Data/Git Projects/CG/p1/src/math/quaternion.cpp" "/media/eagleone/Data/Git Projects/CG/p1/build/math/CMakeFiles/math.dir/quaternion.cpp.o"
+  "/media/eagleone/Data/Git Projects/CG/p1/src/math/vector.cpp" "/media/eagleone/Data/Git Projects/CG/p1/build/math/CMakeFiles/math.dir/vector.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,7 +18,7 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src"
+  "/media/eagleone/Data/Git Projects/CG/p1/src"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

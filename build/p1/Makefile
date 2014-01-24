@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src"
+CMAKE_SOURCE_DIR = "/media/eagleone/Data/Git Projects/CG/p1/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build"
+CMAKE_BINARY_DIR = "/media/eagleone/Data/Git Projects/CG/p1/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/CMakeFiles" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/p1/CMakeFiles/progress.marks"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 p1/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/CMakeFiles" 0
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/media/eagleone/Data/Git Projects/CG/p1/build/CMakeFiles" "/media/eagleone/Data/Git Projects/CG/p1/build/p1/CMakeFiles/progress.marks"
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 p1/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/eagleone/Data/Git Projects/CG/p1/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 p1/clean
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 p1/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 p1/preinstall
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 p1/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 p1/preinstall
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 p1/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 p1/CMakeFiles/p1.dir/rule:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 p1/CMakeFiles/p1.dir/rule
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 p1/CMakeFiles/p1.dir/rule
 .PHONY : p1/CMakeFiles/p1.dir/rule
 
 # Convenience name for target.
@@ -150,7 +150,7 @@ p1: p1/CMakeFiles/p1.dir/rule
 
 # fast build rule for target.
 p1/fast:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f p1/CMakeFiles/p1.dir/build.make p1/CMakeFiles/p1.dir/build
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f p1/CMakeFiles/p1.dir/build.make p1/CMakeFiles/p1.dir/build
 .PHONY : p1/fast
 
 main.o: main.cpp.o
@@ -158,7 +158,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f p1/CMakeFiles/p1.dir/build.make p1/CMakeFiles/p1.dir/main.cpp.o
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f p1/CMakeFiles/p1.dir/build.make p1/CMakeFiles/p1.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -166,7 +166,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f p1/CMakeFiles/p1.dir/build.make p1/CMakeFiles/p1.dir/main.cpp.i
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f p1/CMakeFiles/p1.dir/build.make p1/CMakeFiles/p1.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -174,7 +174,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f p1/CMakeFiles/p1.dir/build.make p1/CMakeFiles/p1.dir/main.cpp.s
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f p1/CMakeFiles/p1.dir/build.make p1/CMakeFiles/p1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 project.o: project.cpp.o
@@ -182,7 +182,7 @@ project.o: project.cpp.o
 
 # target to build an object file
 project.cpp.o:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f p1/CMakeFiles/p1.dir/build.make p1/CMakeFiles/p1.dir/project.cpp.o
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f p1/CMakeFiles/p1.dir/build.make p1/CMakeFiles/p1.dir/project.cpp.o
 .PHONY : project.cpp.o
 
 project.i: project.cpp.i
@@ -190,7 +190,7 @@ project.i: project.cpp.i
 
 # target to preprocess a source file
 project.cpp.i:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f p1/CMakeFiles/p1.dir/build.make p1/CMakeFiles/p1.dir/project.cpp.i
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f p1/CMakeFiles/p1.dir/build.make p1/CMakeFiles/p1.dir/project.cpp.i
 .PHONY : project.cpp.i
 
 project.s: project.cpp.s
@@ -198,7 +198,7 @@ project.s: project.cpp.s
 
 # target to generate assembly for a file
 project.cpp.s:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f p1/CMakeFiles/p1.dir/build.make p1/CMakeFiles/p1.dir/project.cpp.s
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f p1/CMakeFiles/p1.dir/build.make p1/CMakeFiles/p1.dir/project.cpp.s
 .PHONY : project.cpp.s
 
 # Help Target
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

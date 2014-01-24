@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src"
+CMAKE_SOURCE_DIR = "/media/eagleone/Data/Git Projects/CG/p1/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build"
+CMAKE_BINARY_DIR = "/media/eagleone/Data/Git Projects/CG/p1/build"
 
 # Include any dependencies generated for this target.
 include scene/CMakeFiles/scene.dir/depend.make
@@ -50,18 +50,18 @@ include scene/CMakeFiles/scene.dir/progress.make
 include scene/CMakeFiles/scene.dir/flags.make
 
 scene/CMakeFiles/scene.dir/mesh.cpp.o: scene/CMakeFiles/scene.dir/flags.make
-scene/CMakeFiles/scene.dir/mesh.cpp.o: /media/eagleone/Data/SV\ Google\ Drive/CG/Project\ 1/p1/src/scene/mesh.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/CMakeFiles" $(CMAKE_PROGRESS_1)
+scene/CMakeFiles/scene.dir/mesh.cpp.o: /media/eagleone/Data/Git\ Projects/CG/p1/src/scene/mesh.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report "/media/eagleone/Data/Git Projects/CG/p1/build/CMakeFiles" $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object scene/CMakeFiles/scene.dir/mesh.cpp.o"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/scene" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/scene.dir/mesh.cpp.o -c "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/scene/mesh.cpp"
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/scene" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/scene.dir/mesh.cpp.o -c "/media/eagleone/Data/Git Projects/CG/p1/src/scene/mesh.cpp"
 
 scene/CMakeFiles/scene.dir/mesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scene.dir/mesh.cpp.i"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/scene" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/scene/mesh.cpp" > CMakeFiles/scene.dir/mesh.cpp.i
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/scene" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/media/eagleone/Data/Git Projects/CG/p1/src/scene/mesh.cpp" > CMakeFiles/scene.dir/mesh.cpp.i
 
 scene/CMakeFiles/scene.dir/mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scene.dir/mesh.cpp.s"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/scene" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/scene/mesh.cpp" -o CMakeFiles/scene.dir/mesh.cpp.s
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/scene" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/media/eagleone/Data/Git Projects/CG/p1/src/scene/mesh.cpp" -o CMakeFiles/scene.dir/mesh.cpp.s
 
 scene/CMakeFiles/scene.dir/mesh.cpp.o.requires:
 .PHONY : scene/CMakeFiles/scene.dir/mesh.cpp.o.requires
@@ -73,18 +73,18 @@ scene/CMakeFiles/scene.dir/mesh.cpp.o.provides: scene/CMakeFiles/scene.dir/mesh.
 scene/CMakeFiles/scene.dir/mesh.cpp.o.provides.build: scene/CMakeFiles/scene.dir/mesh.cpp.o
 
 scene/CMakeFiles/scene.dir/heightmap.cpp.o: scene/CMakeFiles/scene.dir/flags.make
-scene/CMakeFiles/scene.dir/heightmap.cpp.o: /media/eagleone/Data/SV\ Google\ Drive/CG/Project\ 1/p1/src/scene/heightmap.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/CMakeFiles" $(CMAKE_PROGRESS_2)
+scene/CMakeFiles/scene.dir/heightmap.cpp.o: /media/eagleone/Data/Git\ Projects/CG/p1/src/scene/heightmap.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report "/media/eagleone/Data/Git Projects/CG/p1/build/CMakeFiles" $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object scene/CMakeFiles/scene.dir/heightmap.cpp.o"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/scene" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/scene.dir/heightmap.cpp.o -c "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/scene/heightmap.cpp"
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/scene" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/scene.dir/heightmap.cpp.o -c "/media/eagleone/Data/Git Projects/CG/p1/src/scene/heightmap.cpp"
 
 scene/CMakeFiles/scene.dir/heightmap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scene.dir/heightmap.cpp.i"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/scene" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/scene/heightmap.cpp" > CMakeFiles/scene.dir/heightmap.cpp.i
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/scene" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/media/eagleone/Data/Git Projects/CG/p1/src/scene/heightmap.cpp" > CMakeFiles/scene.dir/heightmap.cpp.i
 
 scene/CMakeFiles/scene.dir/heightmap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scene.dir/heightmap.cpp.s"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/scene" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/scene/heightmap.cpp" -o CMakeFiles/scene.dir/heightmap.cpp.s
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/scene" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/media/eagleone/Data/Git Projects/CG/p1/src/scene/heightmap.cpp" -o CMakeFiles/scene.dir/heightmap.cpp.s
 
 scene/CMakeFiles/scene.dir/heightmap.cpp.o.requires:
 .PHONY : scene/CMakeFiles/scene.dir/heightmap.cpp.o.requires
@@ -108,8 +108,8 @@ scene/libscene.a: scene/CMakeFiles/scene.dir/heightmap.cpp.o
 scene/libscene.a: scene/CMakeFiles/scene.dir/build.make
 scene/libscene.a: scene/CMakeFiles/scene.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libscene.a"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/scene" && $(CMAKE_COMMAND) -P CMakeFiles/scene.dir/cmake_clean_target.cmake
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/scene" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scene.dir/link.txt --verbose=$(VERBOSE)
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/scene" && $(CMAKE_COMMAND) -P CMakeFiles/scene.dir/cmake_clean_target.cmake
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/scene" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scene.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 scene/CMakeFiles/scene.dir/build: scene/libscene.a
@@ -120,10 +120,10 @@ scene/CMakeFiles/scene.dir/requires: scene/CMakeFiles/scene.dir/heightmap.cpp.o.
 .PHONY : scene/CMakeFiles/scene.dir/requires
 
 scene/CMakeFiles/scene.dir/clean:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/scene" && $(CMAKE_COMMAND) -P CMakeFiles/scene.dir/cmake_clean.cmake
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/scene" && $(CMAKE_COMMAND) -P CMakeFiles/scene.dir/cmake_clean.cmake
 .PHONY : scene/CMakeFiles/scene.dir/clean
 
 scene/CMakeFiles/scene.dir/depend:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/scene" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/scene" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/scene/CMakeFiles/scene.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/eagleone/Data/Git Projects/CG/p1/src" "/media/eagleone/Data/Git Projects/CG/p1/src/scene" "/media/eagleone/Data/Git Projects/CG/p1/build" "/media/eagleone/Data/Git Projects/CG/p1/build/scene" "/media/eagleone/Data/Git Projects/CG/p1/build/scene/CMakeFiles/scene.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : scene/CMakeFiles/scene.dir/depend
 

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src"
+CMAKE_SOURCE_DIR = "/media/eagleone/Data/Git Projects/CG/p1/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build"
+CMAKE_BINARY_DIR = "/media/eagleone/Data/Git Projects/CG/p1/build"
 
 # Include any dependencies generated for this target.
 include math/CMakeFiles/math.dir/depend.make
@@ -50,18 +50,18 @@ include math/CMakeFiles/math.dir/progress.make
 include math/CMakeFiles/math.dir/flags.make
 
 math/CMakeFiles/math.dir/camera.cpp.o: math/CMakeFiles/math.dir/flags.make
-math/CMakeFiles/math.dir/camera.cpp.o: /media/eagleone/Data/SV\ Google\ Drive/CG/Project\ 1/p1/src/math/camera.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/CMakeFiles" $(CMAKE_PROGRESS_1)
+math/CMakeFiles/math.dir/camera.cpp.o: /media/eagleone/Data/Git\ Projects/CG/p1/src/math/camera.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report "/media/eagleone/Data/Git Projects/CG/p1/build/CMakeFiles" $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object math/CMakeFiles/math.dir/camera.cpp.o"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/math.dir/camera.cpp.o -c "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/math/camera.cpp"
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/math" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/math.dir/camera.cpp.o -c "/media/eagleone/Data/Git Projects/CG/p1/src/math/camera.cpp"
 
 math/CMakeFiles/math.dir/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/math.dir/camera.cpp.i"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/math/camera.cpp" > CMakeFiles/math.dir/camera.cpp.i
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/math" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/media/eagleone/Data/Git Projects/CG/p1/src/math/camera.cpp" > CMakeFiles/math.dir/camera.cpp.i
 
 math/CMakeFiles/math.dir/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/math.dir/camera.cpp.s"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/math/camera.cpp" -o CMakeFiles/math.dir/camera.cpp.s
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/math" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/media/eagleone/Data/Git Projects/CG/p1/src/math/camera.cpp" -o CMakeFiles/math.dir/camera.cpp.s
 
 math/CMakeFiles/math.dir/camera.cpp.o.requires:
 .PHONY : math/CMakeFiles/math.dir/camera.cpp.o.requires
@@ -73,18 +73,18 @@ math/CMakeFiles/math.dir/camera.cpp.o.provides: math/CMakeFiles/math.dir/camera.
 math/CMakeFiles/math.dir/camera.cpp.o.provides.build: math/CMakeFiles/math.dir/camera.cpp.o
 
 math/CMakeFiles/math.dir/color.cpp.o: math/CMakeFiles/math.dir/flags.make
-math/CMakeFiles/math.dir/color.cpp.o: /media/eagleone/Data/SV\ Google\ Drive/CG/Project\ 1/p1/src/math/color.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/CMakeFiles" $(CMAKE_PROGRESS_2)
+math/CMakeFiles/math.dir/color.cpp.o: /media/eagleone/Data/Git\ Projects/CG/p1/src/math/color.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report "/media/eagleone/Data/Git Projects/CG/p1/build/CMakeFiles" $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object math/CMakeFiles/math.dir/color.cpp.o"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/math.dir/color.cpp.o -c "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/math/color.cpp"
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/math" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/math.dir/color.cpp.o -c "/media/eagleone/Data/Git Projects/CG/p1/src/math/color.cpp"
 
 math/CMakeFiles/math.dir/color.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/math.dir/color.cpp.i"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/math/color.cpp" > CMakeFiles/math.dir/color.cpp.i
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/math" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/media/eagleone/Data/Git Projects/CG/p1/src/math/color.cpp" > CMakeFiles/math.dir/color.cpp.i
 
 math/CMakeFiles/math.dir/color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/math.dir/color.cpp.s"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/math/color.cpp" -o CMakeFiles/math.dir/color.cpp.s
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/math" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/media/eagleone/Data/Git Projects/CG/p1/src/math/color.cpp" -o CMakeFiles/math.dir/color.cpp.s
 
 math/CMakeFiles/math.dir/color.cpp.o.requires:
 .PHONY : math/CMakeFiles/math.dir/color.cpp.o.requires
@@ -96,18 +96,18 @@ math/CMakeFiles/math.dir/color.cpp.o.provides: math/CMakeFiles/math.dir/color.cp
 math/CMakeFiles/math.dir/color.cpp.o.provides.build: math/CMakeFiles/math.dir/color.cpp.o
 
 math/CMakeFiles/math.dir/matrix.cpp.o: math/CMakeFiles/math.dir/flags.make
-math/CMakeFiles/math.dir/matrix.cpp.o: /media/eagleone/Data/SV\ Google\ Drive/CG/Project\ 1/p1/src/math/matrix.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/CMakeFiles" $(CMAKE_PROGRESS_3)
+math/CMakeFiles/math.dir/matrix.cpp.o: /media/eagleone/Data/Git\ Projects/CG/p1/src/math/matrix.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report "/media/eagleone/Data/Git Projects/CG/p1/build/CMakeFiles" $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object math/CMakeFiles/math.dir/matrix.cpp.o"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/math.dir/matrix.cpp.o -c "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/math/matrix.cpp"
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/math" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/math.dir/matrix.cpp.o -c "/media/eagleone/Data/Git Projects/CG/p1/src/math/matrix.cpp"
 
 math/CMakeFiles/math.dir/matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/math.dir/matrix.cpp.i"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/math/matrix.cpp" > CMakeFiles/math.dir/matrix.cpp.i
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/math" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/media/eagleone/Data/Git Projects/CG/p1/src/math/matrix.cpp" > CMakeFiles/math.dir/matrix.cpp.i
 
 math/CMakeFiles/math.dir/matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/math.dir/matrix.cpp.s"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/math/matrix.cpp" -o CMakeFiles/math.dir/matrix.cpp.s
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/math" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/media/eagleone/Data/Git Projects/CG/p1/src/math/matrix.cpp" -o CMakeFiles/math.dir/matrix.cpp.s
 
 math/CMakeFiles/math.dir/matrix.cpp.o.requires:
 .PHONY : math/CMakeFiles/math.dir/matrix.cpp.o.requires
@@ -119,18 +119,18 @@ math/CMakeFiles/math.dir/matrix.cpp.o.provides: math/CMakeFiles/math.dir/matrix.
 math/CMakeFiles/math.dir/matrix.cpp.o.provides.build: math/CMakeFiles/math.dir/matrix.cpp.o
 
 math/CMakeFiles/math.dir/quaternion.cpp.o: math/CMakeFiles/math.dir/flags.make
-math/CMakeFiles/math.dir/quaternion.cpp.o: /media/eagleone/Data/SV\ Google\ Drive/CG/Project\ 1/p1/src/math/quaternion.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/CMakeFiles" $(CMAKE_PROGRESS_4)
+math/CMakeFiles/math.dir/quaternion.cpp.o: /media/eagleone/Data/Git\ Projects/CG/p1/src/math/quaternion.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report "/media/eagleone/Data/Git Projects/CG/p1/build/CMakeFiles" $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object math/CMakeFiles/math.dir/quaternion.cpp.o"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/math.dir/quaternion.cpp.o -c "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/math/quaternion.cpp"
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/math" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/math.dir/quaternion.cpp.o -c "/media/eagleone/Data/Git Projects/CG/p1/src/math/quaternion.cpp"
 
 math/CMakeFiles/math.dir/quaternion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/math.dir/quaternion.cpp.i"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/math/quaternion.cpp" > CMakeFiles/math.dir/quaternion.cpp.i
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/math" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/media/eagleone/Data/Git Projects/CG/p1/src/math/quaternion.cpp" > CMakeFiles/math.dir/quaternion.cpp.i
 
 math/CMakeFiles/math.dir/quaternion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/math.dir/quaternion.cpp.s"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/math/quaternion.cpp" -o CMakeFiles/math.dir/quaternion.cpp.s
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/math" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/media/eagleone/Data/Git Projects/CG/p1/src/math/quaternion.cpp" -o CMakeFiles/math.dir/quaternion.cpp.s
 
 math/CMakeFiles/math.dir/quaternion.cpp.o.requires:
 .PHONY : math/CMakeFiles/math.dir/quaternion.cpp.o.requires
@@ -142,18 +142,18 @@ math/CMakeFiles/math.dir/quaternion.cpp.o.provides: math/CMakeFiles/math.dir/qua
 math/CMakeFiles/math.dir/quaternion.cpp.o.provides.build: math/CMakeFiles/math.dir/quaternion.cpp.o
 
 math/CMakeFiles/math.dir/vector.cpp.o: math/CMakeFiles/math.dir/flags.make
-math/CMakeFiles/math.dir/vector.cpp.o: /media/eagleone/Data/SV\ Google\ Drive/CG/Project\ 1/p1/src/math/vector.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/CMakeFiles" $(CMAKE_PROGRESS_5)
+math/CMakeFiles/math.dir/vector.cpp.o: /media/eagleone/Data/Git\ Projects/CG/p1/src/math/vector.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report "/media/eagleone/Data/Git Projects/CG/p1/build/CMakeFiles" $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object math/CMakeFiles/math.dir/vector.cpp.o"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/math.dir/vector.cpp.o -c "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/math/vector.cpp"
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/math" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/math.dir/vector.cpp.o -c "/media/eagleone/Data/Git Projects/CG/p1/src/math/vector.cpp"
 
 math/CMakeFiles/math.dir/vector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/math.dir/vector.cpp.i"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/math/vector.cpp" > CMakeFiles/math.dir/vector.cpp.i
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/math" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/media/eagleone/Data/Git Projects/CG/p1/src/math/vector.cpp" > CMakeFiles/math.dir/vector.cpp.i
 
 math/CMakeFiles/math.dir/vector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/math.dir/vector.cpp.s"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/math/vector.cpp" -o CMakeFiles/math.dir/vector.cpp.s
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/math" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/media/eagleone/Data/Git Projects/CG/p1/src/math/vector.cpp" -o CMakeFiles/math.dir/vector.cpp.s
 
 math/CMakeFiles/math.dir/vector.cpp.o.requires:
 .PHONY : math/CMakeFiles/math.dir/vector.cpp.o.requires
@@ -183,8 +183,8 @@ math/libmath.a: math/CMakeFiles/math.dir/vector.cpp.o
 math/libmath.a: math/CMakeFiles/math.dir/build.make
 math/libmath.a: math/CMakeFiles/math.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libmath.a"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math" && $(CMAKE_COMMAND) -P CMakeFiles/math.dir/cmake_clean_target.cmake
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/math.dir/link.txt --verbose=$(VERBOSE)
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/math" && $(CMAKE_COMMAND) -P CMakeFiles/math.dir/cmake_clean_target.cmake
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/math" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/math.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 math/CMakeFiles/math.dir/build: math/libmath.a
@@ -198,10 +198,10 @@ math/CMakeFiles/math.dir/requires: math/CMakeFiles/math.dir/vector.cpp.o.require
 .PHONY : math/CMakeFiles/math.dir/requires
 
 math/CMakeFiles/math.dir/clean:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math" && $(CMAKE_COMMAND) -P CMakeFiles/math.dir/cmake_clean.cmake
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/math" && $(CMAKE_COMMAND) -P CMakeFiles/math.dir/cmake_clean.cmake
 .PHONY : math/CMakeFiles/math.dir/clean
 
 math/CMakeFiles/math.dir/depend:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/math" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math/CMakeFiles/math.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/eagleone/Data/Git Projects/CG/p1/src" "/media/eagleone/Data/Git Projects/CG/p1/src/math" "/media/eagleone/Data/Git Projects/CG/p1/build" "/media/eagleone/Data/Git Projects/CG/p1/build/math" "/media/eagleone/Data/Git Projects/CG/p1/build/math/CMakeFiles/math.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : math/CMakeFiles/math.dir/depend
 

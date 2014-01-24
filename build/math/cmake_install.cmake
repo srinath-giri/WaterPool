@@ -1,4 +1,4 @@
-# Install script for directory: /media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/math
+# Install script for directory: /media/eagleone/Data/Git Projects/CG/p1/src/math
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

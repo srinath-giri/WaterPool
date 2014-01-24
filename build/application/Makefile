@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src"
+CMAKE_SOURCE_DIR = "/media/eagleone/Data/Git Projects/CG/p1/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build"
+CMAKE_BINARY_DIR = "/media/eagleone/Data/Git Projects/CG/p1/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/CMakeFiles" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/application/CMakeFiles/progress.marks"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 application/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/CMakeFiles" 0
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/media/eagleone/Data/Git Projects/CG/p1/build/CMakeFiles" "/media/eagleone/Data/Git Projects/CG/p1/build/application/CMakeFiles/progress.marks"
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 application/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/eagleone/Data/Git Projects/CG/p1/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 application/clean
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 application/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 application/preinstall
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 application/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 application/preinstall
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 application/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 application/CMakeFiles/application.dir/rule:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 application/CMakeFiles/application.dir/rule
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 application/CMakeFiles/application.dir/rule
 .PHONY : application/CMakeFiles/application.dir/rule
 
 # Convenience name for target.
@@ -150,7 +150,7 @@ application: application/CMakeFiles/application.dir/rule
 
 # fast build rule for target.
 application/fast:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f application/CMakeFiles/application.dir/build.make application/CMakeFiles/application.dir/build
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f application/CMakeFiles/application.dir/build.make application/CMakeFiles/application.dir/build
 .PHONY : application/fast
 
 application.o: application.cpp.o
@@ -158,7 +158,7 @@ application.o: application.cpp.o
 
 # target to build an object file
 application.cpp.o:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f application/CMakeFiles/application.dir/build.make application/CMakeFiles/application.dir/application.cpp.o
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f application/CMakeFiles/application.dir/build.make application/CMakeFiles/application.dir/application.cpp.o
 .PHONY : application.cpp.o
 
 application.i: application.cpp.i
@@ -166,7 +166,7 @@ application.i: application.cpp.i
 
 # target to preprocess a source file
 application.cpp.i:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f application/CMakeFiles/application.dir/build.make application/CMakeFiles/application.dir/application.cpp.i
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f application/CMakeFiles/application.dir/build.make application/CMakeFiles/application.dir/application.cpp.i
 .PHONY : application.cpp.i
 
 application.s: application.cpp.s
@@ -174,7 +174,7 @@ application.s: application.cpp.s
 
 # target to generate assembly for a file
 application.cpp.s:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f application/CMakeFiles/application.dir/build.make application/CMakeFiles/application.dir/application.cpp.s
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f application/CMakeFiles/application.dir/build.make application/CMakeFiles/application.dir/application.cpp.s
 .PHONY : application.cpp.s
 
 camera_roam.o: camera_roam.cpp.o
@@ -182,7 +182,7 @@ camera_roam.o: camera_roam.cpp.o
 
 # target to build an object file
 camera_roam.cpp.o:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f application/CMakeFiles/application.dir/build.make application/CMakeFiles/application.dir/camera_roam.cpp.o
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f application/CMakeFiles/application.dir/build.make application/CMakeFiles/application.dir/camera_roam.cpp.o
 .PHONY : camera_roam.cpp.o
 
 camera_roam.i: camera_roam.cpp.i
@@ -190,7 +190,7 @@ camera_roam.i: camera_roam.cpp.i
 
 # target to preprocess a source file
 camera_roam.cpp.i:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f application/CMakeFiles/application.dir/build.make application/CMakeFiles/application.dir/camera_roam.cpp.i
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f application/CMakeFiles/application.dir/build.make application/CMakeFiles/application.dir/camera_roam.cpp.i
 .PHONY : camera_roam.cpp.i
 
 camera_roam.s: camera_roam.cpp.s
@@ -198,7 +198,7 @@ camera_roam.s: camera_roam.cpp.s
 
 # target to generate assembly for a file
 camera_roam.cpp.s:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f application/CMakeFiles/application.dir/build.make application/CMakeFiles/application.dir/camera_roam.cpp.s
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f application/CMakeFiles/application.dir/build.make application/CMakeFiles/application.dir/camera_roam.cpp.s
 .PHONY : camera_roam.cpp.s
 
 imageio.o: imageio.cpp.o
@@ -206,7 +206,7 @@ imageio.o: imageio.cpp.o
 
 # target to build an object file
 imageio.cpp.o:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f application/CMakeFiles/application.dir/build.make application/CMakeFiles/application.dir/imageio.cpp.o
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f application/CMakeFiles/application.dir/build.make application/CMakeFiles/application.dir/imageio.cpp.o
 .PHONY : imageio.cpp.o
 
 imageio.i: imageio.cpp.i
@@ -214,7 +214,7 @@ imageio.i: imageio.cpp.i
 
 # target to preprocess a source file
 imageio.cpp.i:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f application/CMakeFiles/application.dir/build.make application/CMakeFiles/application.dir/imageio.cpp.i
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f application/CMakeFiles/application.dir/build.make application/CMakeFiles/application.dir/imageio.cpp.i
 .PHONY : imageio.cpp.i
 
 imageio.s: imageio.cpp.s
@@ -222,7 +222,7 @@ imageio.s: imageio.cpp.s
 
 # target to generate assembly for a file
 imageio.cpp.s:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f application/CMakeFiles/application.dir/build.make application/CMakeFiles/application.dir/imageio.cpp.s
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f application/CMakeFiles/application.dir/build.make application/CMakeFiles/application.dir/imageio.cpp.s
 .PHONY : imageio.cpp.s
 
 # Help Target
@@ -258,6 +258,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

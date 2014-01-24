@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src"
+CMAKE_SOURCE_DIR = "/media/eagleone/Data/Git Projects/CG/p1/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build"
+CMAKE_BINARY_DIR = "/media/eagleone/Data/Git Projects/CG/p1/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/CMakeFiles" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/math/CMakeFiles/progress.marks"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 math/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/CMakeFiles" 0
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/media/eagleone/Data/Git Projects/CG/p1/build/CMakeFiles" "/media/eagleone/Data/Git Projects/CG/p1/build/math/CMakeFiles/progress.marks"
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 math/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/eagleone/Data/Git Projects/CG/p1/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 math/clean
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 math/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 math/preinstall
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 math/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 math/preinstall
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 math/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 math/CMakeFiles/math.dir/rule:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 math/CMakeFiles/math.dir/rule
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f CMakeFiles/Makefile2 math/CMakeFiles/math.dir/rule
 .PHONY : math/CMakeFiles/math.dir/rule
 
 # Convenience name for target.
@@ -150,7 +150,7 @@ math: math/CMakeFiles/math.dir/rule
 
 # fast build rule for target.
 math/fast:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/build
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/build
 .PHONY : math/fast
 
 camera.o: camera.cpp.o
@@ -158,7 +158,7 @@ camera.o: camera.cpp.o
 
 # target to build an object file
 camera.cpp.o:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/camera.cpp.o
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/camera.cpp.o
 .PHONY : camera.cpp.o
 
 camera.i: camera.cpp.i
@@ -166,7 +166,7 @@ camera.i: camera.cpp.i
 
 # target to preprocess a source file
 camera.cpp.i:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/camera.cpp.i
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/camera.cpp.i
 .PHONY : camera.cpp.i
 
 camera.s: camera.cpp.s
@@ -174,7 +174,7 @@ camera.s: camera.cpp.s
 
 # target to generate assembly for a file
 camera.cpp.s:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/camera.cpp.s
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/camera.cpp.s
 .PHONY : camera.cpp.s
 
 color.o: color.cpp.o
@@ -182,7 +182,7 @@ color.o: color.cpp.o
 
 # target to build an object file
 color.cpp.o:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/color.cpp.o
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/color.cpp.o
 .PHONY : color.cpp.o
 
 color.i: color.cpp.i
@@ -190,7 +190,7 @@ color.i: color.cpp.i
 
 # target to preprocess a source file
 color.cpp.i:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/color.cpp.i
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/color.cpp.i
 .PHONY : color.cpp.i
 
 color.s: color.cpp.s
@@ -198,7 +198,7 @@ color.s: color.cpp.s
 
 # target to generate assembly for a file
 color.cpp.s:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/color.cpp.s
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/color.cpp.s
 .PHONY : color.cpp.s
 
 matrix.o: matrix.cpp.o
@@ -206,7 +206,7 @@ matrix.o: matrix.cpp.o
 
 # target to build an object file
 matrix.cpp.o:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/matrix.cpp.o
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/matrix.cpp.o
 .PHONY : matrix.cpp.o
 
 matrix.i: matrix.cpp.i
@@ -214,7 +214,7 @@ matrix.i: matrix.cpp.i
 
 # target to preprocess a source file
 matrix.cpp.i:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/matrix.cpp.i
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/matrix.cpp.i
 .PHONY : matrix.cpp.i
 
 matrix.s: matrix.cpp.s
@@ -222,7 +222,7 @@ matrix.s: matrix.cpp.s
 
 # target to generate assembly for a file
 matrix.cpp.s:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/matrix.cpp.s
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/matrix.cpp.s
 .PHONY : matrix.cpp.s
 
 quaternion.o: quaternion.cpp.o
@@ -230,7 +230,7 @@ quaternion.o: quaternion.cpp.o
 
 # target to build an object file
 quaternion.cpp.o:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/quaternion.cpp.o
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/quaternion.cpp.o
 .PHONY : quaternion.cpp.o
 
 quaternion.i: quaternion.cpp.i
@@ -238,7 +238,7 @@ quaternion.i: quaternion.cpp.i
 
 # target to preprocess a source file
 quaternion.cpp.i:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/quaternion.cpp.i
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/quaternion.cpp.i
 .PHONY : quaternion.cpp.i
 
 quaternion.s: quaternion.cpp.s
@@ -246,7 +246,7 @@ quaternion.s: quaternion.cpp.s
 
 # target to generate assembly for a file
 quaternion.cpp.s:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/quaternion.cpp.s
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/quaternion.cpp.s
 .PHONY : quaternion.cpp.s
 
 vector.o: vector.cpp.o
@@ -254,7 +254,7 @@ vector.o: vector.cpp.o
 
 # target to build an object file
 vector.cpp.o:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/vector.cpp.o
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/vector.cpp.o
 .PHONY : vector.cpp.o
 
 vector.i: vector.cpp.i
@@ -262,7 +262,7 @@ vector.i: vector.cpp.i
 
 # target to preprocess a source file
 vector.cpp.i:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/vector.cpp.i
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/vector.cpp.i
 .PHONY : vector.cpp.i
 
 vector.s: vector.cpp.s
@@ -270,7 +270,7 @@ vector.s: vector.cpp.s
 
 # target to generate assembly for a file
 vector.cpp.s:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/vector.cpp.s
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(MAKE) -f math/CMakeFiles/math.dir/build.make math/CMakeFiles/math.dir/vector.cpp.s
 .PHONY : vector.cpp.s
 
 # Help Target
@@ -312,6 +312,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

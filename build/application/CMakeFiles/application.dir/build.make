@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src"
+CMAKE_SOURCE_DIR = "/media/eagleone/Data/Git Projects/CG/p1/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build"
+CMAKE_BINARY_DIR = "/media/eagleone/Data/Git Projects/CG/p1/build"
 
 # Include any dependencies generated for this target.
 include application/CMakeFiles/application.dir/depend.make
@@ -50,18 +50,18 @@ include application/CMakeFiles/application.dir/progress.make
 include application/CMakeFiles/application.dir/flags.make
 
 application/CMakeFiles/application.dir/application.cpp.o: application/CMakeFiles/application.dir/flags.make
-application/CMakeFiles/application.dir/application.cpp.o: /media/eagleone/Data/SV\ Google\ Drive/CG/Project\ 1/p1/src/application/application.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/CMakeFiles" $(CMAKE_PROGRESS_1)
+application/CMakeFiles/application.dir/application.cpp.o: /media/eagleone/Data/Git\ Projects/CG/p1/src/application/application.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report "/media/eagleone/Data/Git Projects/CG/p1/build/CMakeFiles" $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object application/CMakeFiles/application.dir/application.cpp.o"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/application" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/application.dir/application.cpp.o -c "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/application/application.cpp"
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/application" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/application.dir/application.cpp.o -c "/media/eagleone/Data/Git Projects/CG/p1/src/application/application.cpp"
 
 application/CMakeFiles/application.dir/application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/application.dir/application.cpp.i"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/application" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/application/application.cpp" > CMakeFiles/application.dir/application.cpp.i
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/application" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/media/eagleone/Data/Git Projects/CG/p1/src/application/application.cpp" > CMakeFiles/application.dir/application.cpp.i
 
 application/CMakeFiles/application.dir/application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/application.dir/application.cpp.s"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/application" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/application/application.cpp" -o CMakeFiles/application.dir/application.cpp.s
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/application" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/media/eagleone/Data/Git Projects/CG/p1/src/application/application.cpp" -o CMakeFiles/application.dir/application.cpp.s
 
 application/CMakeFiles/application.dir/application.cpp.o.requires:
 .PHONY : application/CMakeFiles/application.dir/application.cpp.o.requires
@@ -73,18 +73,18 @@ application/CMakeFiles/application.dir/application.cpp.o.provides: application/C
 application/CMakeFiles/application.dir/application.cpp.o.provides.build: application/CMakeFiles/application.dir/application.cpp.o
 
 application/CMakeFiles/application.dir/camera_roam.cpp.o: application/CMakeFiles/application.dir/flags.make
-application/CMakeFiles/application.dir/camera_roam.cpp.o: /media/eagleone/Data/SV\ Google\ Drive/CG/Project\ 1/p1/src/application/camera_roam.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/CMakeFiles" $(CMAKE_PROGRESS_2)
+application/CMakeFiles/application.dir/camera_roam.cpp.o: /media/eagleone/Data/Git\ Projects/CG/p1/src/application/camera_roam.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report "/media/eagleone/Data/Git Projects/CG/p1/build/CMakeFiles" $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object application/CMakeFiles/application.dir/camera_roam.cpp.o"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/application" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/application.dir/camera_roam.cpp.o -c "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/application/camera_roam.cpp"
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/application" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/application.dir/camera_roam.cpp.o -c "/media/eagleone/Data/Git Projects/CG/p1/src/application/camera_roam.cpp"
 
 application/CMakeFiles/application.dir/camera_roam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/application.dir/camera_roam.cpp.i"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/application" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/application/camera_roam.cpp" > CMakeFiles/application.dir/camera_roam.cpp.i
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/application" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/media/eagleone/Data/Git Projects/CG/p1/src/application/camera_roam.cpp" > CMakeFiles/application.dir/camera_roam.cpp.i
 
 application/CMakeFiles/application.dir/camera_roam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/application.dir/camera_roam.cpp.s"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/application" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/application/camera_roam.cpp" -o CMakeFiles/application.dir/camera_roam.cpp.s
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/application" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/media/eagleone/Data/Git Projects/CG/p1/src/application/camera_roam.cpp" -o CMakeFiles/application.dir/camera_roam.cpp.s
 
 application/CMakeFiles/application.dir/camera_roam.cpp.o.requires:
 .PHONY : application/CMakeFiles/application.dir/camera_roam.cpp.o.requires
@@ -96,18 +96,18 @@ application/CMakeFiles/application.dir/camera_roam.cpp.o.provides: application/C
 application/CMakeFiles/application.dir/camera_roam.cpp.o.provides.build: application/CMakeFiles/application.dir/camera_roam.cpp.o
 
 application/CMakeFiles/application.dir/imageio.cpp.o: application/CMakeFiles/application.dir/flags.make
-application/CMakeFiles/application.dir/imageio.cpp.o: /media/eagleone/Data/SV\ Google\ Drive/CG/Project\ 1/p1/src/application/imageio.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/CMakeFiles" $(CMAKE_PROGRESS_3)
+application/CMakeFiles/application.dir/imageio.cpp.o: /media/eagleone/Data/Git\ Projects/CG/p1/src/application/imageio.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report "/media/eagleone/Data/Git Projects/CG/p1/build/CMakeFiles" $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object application/CMakeFiles/application.dir/imageio.cpp.o"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/application" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/application.dir/imageio.cpp.o -c "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/application/imageio.cpp"
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/application" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/application.dir/imageio.cpp.o -c "/media/eagleone/Data/Git Projects/CG/p1/src/application/imageio.cpp"
 
 application/CMakeFiles/application.dir/imageio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/application.dir/imageio.cpp.i"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/application" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/application/imageio.cpp" > CMakeFiles/application.dir/imageio.cpp.i
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/application" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/media/eagleone/Data/Git Projects/CG/p1/src/application/imageio.cpp" > CMakeFiles/application.dir/imageio.cpp.i
 
 application/CMakeFiles/application.dir/imageio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/application.dir/imageio.cpp.s"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/application" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/application/imageio.cpp" -o CMakeFiles/application.dir/imageio.cpp.s
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/application" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/media/eagleone/Data/Git Projects/CG/p1/src/application/imageio.cpp" -o CMakeFiles/application.dir/imageio.cpp.s
 
 application/CMakeFiles/application.dir/imageio.cpp.o.requires:
 .PHONY : application/CMakeFiles/application.dir/imageio.cpp.o.requires
@@ -133,8 +133,8 @@ application/libapplication.a: application/CMakeFiles/application.dir/imageio.cpp
 application/libapplication.a: application/CMakeFiles/application.dir/build.make
 application/libapplication.a: application/CMakeFiles/application.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libapplication.a"
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/application" && $(CMAKE_COMMAND) -P CMakeFiles/application.dir/cmake_clean_target.cmake
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/application" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/application.dir/link.txt --verbose=$(VERBOSE)
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/application" && $(CMAKE_COMMAND) -P CMakeFiles/application.dir/cmake_clean_target.cmake
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/application" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/application.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 application/CMakeFiles/application.dir/build: application/libapplication.a
@@ -146,10 +146,10 @@ application/CMakeFiles/application.dir/requires: application/CMakeFiles/applicat
 .PHONY : application/CMakeFiles/application.dir/requires
 
 application/CMakeFiles/application.dir/clean:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/application" && $(CMAKE_COMMAND) -P CMakeFiles/application.dir/cmake_clean.cmake
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build/application" && $(CMAKE_COMMAND) -P CMakeFiles/application.dir/cmake_clean.cmake
 .PHONY : application/CMakeFiles/application.dir/clean
 
 application/CMakeFiles/application.dir/depend:
-	cd "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/application" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/application" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/application/CMakeFiles/application.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/media/eagleone/Data/Git Projects/CG/p1/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/eagleone/Data/Git Projects/CG/p1/src" "/media/eagleone/Data/Git Projects/CG/p1/src/application" "/media/eagleone/Data/Git Projects/CG/p1/build" "/media/eagleone/Data/Git Projects/CG/p1/build/application" "/media/eagleone/Data/Git Projects/CG/p1/build/application/CMakeFiles/application.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : application/CMakeFiles/application.dir/depend
 

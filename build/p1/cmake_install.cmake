@@ -1,4 +1,4 @@
-# Install script for directory: /media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/p1
+# Install script for directory: /media/eagleone/Data/Git Projects/CG/p1/src/p1
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,25 +33,25 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  IF(EXISTS "$ENV{DESTDIR}/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/../p1" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/../p1")
+  IF(EXISTS "$ENV{DESTDIR}/media/eagleone/Data/Git Projects/CG/p1/src/../p1" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/media/eagleone/Data/Git Projects/CG/p1/src/../p1")
     FILE(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/../p1"
+         FILE "$ENV{DESTDIR}/media/eagleone/Data/Git Projects/CG/p1/src/../p1"
          RPATH "")
   ENDIF()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/../p1")
+   "/media/eagleone/Data/Git Projects/CG/p1/src/../p1")
   IF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/.." TYPE EXECUTABLE FILES "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/p1/p1")
-  IF(EXISTS "$ENV{DESTDIR}/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/../p1" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/../p1")
+FILE(INSTALL DESTINATION "/media/eagleone/Data/Git Projects/CG/p1/src/.." TYPE EXECUTABLE FILES "/media/eagleone/Data/Git Projects/CG/p1/build/p1/p1")
+  IF(EXISTS "$ENV{DESTDIR}/media/eagleone/Data/Git Projects/CG/p1/src/../p1" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/media/eagleone/Data/Git Projects/CG/p1/src/../p1")
     IF(CMAKE_INSTALL_DO_STRIP)
-      EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/../p1")
+      EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/media/eagleone/Data/Git Projects/CG/p1/src/../p1")
     ENDIF(CMAKE_INSTALL_DO_STRIP)
   ENDIF()
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")

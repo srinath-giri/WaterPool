@@ -4,9 +4,9 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/application/application.cpp" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/application/CMakeFiles/application.dir/application.cpp.o"
-  "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/application/camera_roam.cpp" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/application/CMakeFiles/application.dir/camera_roam.cpp.o"
-  "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src/application/imageio.cpp" "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/build/application/CMakeFiles/application.dir/imageio.cpp.o"
+  "/media/eagleone/Data/Git Projects/CG/p1/src/application/application.cpp" "/media/eagleone/Data/Git Projects/CG/p1/build/application/CMakeFiles/application.dir/application.cpp.o"
+  "/media/eagleone/Data/Git Projects/CG/p1/src/application/camera_roam.cpp" "/media/eagleone/Data/Git Projects/CG/p1/build/application/CMakeFiles/application.dir/camera_roam.cpp.o"
+  "/media/eagleone/Data/Git Projects/CG/p1/src/application/imageio.cpp" "/media/eagleone/Data/Git Projects/CG/p1/build/application/CMakeFiles/application.dir/imageio.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,7 +16,7 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/media/eagleone/Data/SV Google Drive/CG/Project 1/p1/src"
+  "/media/eagleone/Data/Git Projects/CG/p1/src"
   "/usr/include/SDL"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
