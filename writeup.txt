@@ -1,5 +1,23 @@
+=====================
+Features Implemented:
+=====================
+1. The mesh of the pool was loaded along with its vertices and indices. The normals were computed for the vertices.
+This was done by computing the normals of the triangles of the mesh. 
+Then the average of the normals of triangles to which each vertex was associated was found out.
 
-Describe the required features you have implemented, and which you have not.
-if you have missing features, be sure to explain how much you accomplished.
-You should detail anything you think we need to know to understand your code.
+2. The object transformations on the pool were done and was rendered. The materials for the pool was set.
 
+3. The camera was brought into position and configured. The lighting was enabled and configured.
+
+3. OpenGL Depth test was enabled.
+
+4. The heights of the water mesh was calculated. The vertex normals for the water mesh was calculated. 
+This was done by first computing the normal of the quadrilaterals of the mesh. The normal of a quadilateral 
+is the normalised cross product of its diagonals. Then, the average of normals of quadrilaterals to which each vertex 
+was associated was calculated.
+
+5. The object transformation for the water mesh was done. The materials for water was set. Ambience, Diffuse and Specular has been set for the pool and the mesh.
+
+6. The water was rendered and now appears animated.
+
+The screen shots have been provided as PNG files in the project root directory.

@@ -29,11 +29,23 @@ namespace _462 {
     - Quaternion is defined in math/quaternion.hpp
     - Color3 is defined in math/color.hpp
 */
+const unsigned int WATER_MESH_MAX_VERTICES1D = 64 + 1;
+const unsigned int WATER_MESH_MAX_VERTICES2D = WATER_MESH_MAX_VERTICES1D * WATER_MESH_MAX_VERTICES1D;
+
+const unsigned int WATER_MESH_MAX_QUADS1D = WATER_MESH_MAX_VERTICES1D - 1;
+const unsigned int WATER_MESH_MAX_QUADS2D = WATER_MESH_MAX_QUADS1D * WATER_MESH_MAX_QUADS1D;
+
 
 struct Triangle
 {
     // index into vertex list of the 3 vertices of this triangle
     unsigned int vertices[3];
+};
+
+struct Quad
+{
+    // index into vertex list of the 4 vertices of this quad
+    unsigned int vertices[4];
 };
 
 struct MeshData
@@ -46,6 +58,8 @@ struct MeshData
     Triangle* triangles;
     // size of triangle array
     size_t num_triangles;
+    // array of normals
+    Vector3* vertexNormals;
 };
 
 class Heightmap
@@ -110,11 +124,24 @@ public:
     void update( real_t dt );
     // Renderg the mesh using the given camera.
     void render( const Camera* camera );
+    // Convert angle from radians to degrees
+    real_t radians_to_degrees(real_t angle);
 
 private:
 
     // a copy of the scene data, as passed in by initialize
     Scene scene;
+    // vertices of the water mesh
+    Vector3* water_mesh;
+    // normals of the water mesh
+    Vector3* water_mesh_normals;
+    // Quadrialterals(indices to vertices) defining the water mesh
+    Quad* water_mesh_quads;
+    // Array of number of triangles of which each vertex is part of
+    unsigned int* nTriangles_of_vertices;
+    // Array of number of quads of which each vertex is part of
+    unsigned int* nQuads_of_vertices;
+
 
     // TODO add any other private members/functions here.
 

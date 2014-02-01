@@ -70,6 +70,7 @@ bool OpenglApplication::initialize()
     scene.mesh.vertices = new Vector3[scene.mesh.num_vertices];
     scene.mesh.num_triangles = mesh.triangles.size();
     scene.mesh.triangles = new Triangle[scene.mesh.num_triangles];
+    scene.mesh.vertexNormals = new Vector3[scene.mesh.num_vertices];
     for ( size_t i = 0; i < scene.mesh.num_vertices; ++i ) {
         scene.mesh.vertices[i] = mesh.vertices[i].position;
     }
@@ -117,6 +118,7 @@ void OpenglApplication::destroy()
     project.destroy();
     delete [] scene.mesh.vertices;
     delete [] scene.mesh.triangles;
+    delete [] scene.mesh.vertexNormals;
 }
 
 void OpenglApplication::update( real_t dt )
