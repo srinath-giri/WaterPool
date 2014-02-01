@@ -1,4 +1,0 @@
-/media/eagleone/Data/Git Projects/CG/p1/build/application/CMakeFiles/application.dir
-/media/eagleone/Data/Git Projects/CG/p1/build/math/CMakeFiles/math.dir
-/media/eagleone/Data/Git Projects/CG/p1/build/p1/CMakeFiles/p1.dir
-/media/eagleone/Data/Git Projects/CG/p1/build/scene/CMakeFiles/scene.dir
