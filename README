@@ -2,19 +2,7 @@ README
 Author: Eric Butler <edbutler@andrew.cmu.edu>
 	Harry Gifford <hgifford@cmu.edu>
 	Steven Fackler <sfackler@andrew.cmu.edu>
-
----------------------------------------------------------------------------
-Welcome to 15-462!
----------------------------------------------------------------------------
-
-In here you will find instructions for building the project and a
-short description of each source file.
-
-There is quite a bit of starter code for project 1. It contains math
-utility functions and classes, code to load the application, code to load
-models, and code to handle mouse/keyboard input.
-
-Report any bugs to the TAs.
+	Srinath Giri <srinathg@andrew.cmu.edu>
 
 ---------------------------------------------------------------------------
 Building the Code
@@ -40,13 +28,6 @@ projects to XCode projects.
     target will compile everything for you, and the "install" target will copy
     the p2 executable to the main "p2" directory.
 
-WINDOWS NOTE: If you're using Windows, you'll have to add the "windows/bin"
-directory to your PATH environment variable so Windows can find the shared
-libraries the project will use.
-
-Note: Your program MUST COMPILE on the SCS Linux machines. If you use
-Windows, make sure to test on Linux well in advance of the deadline.
-
 ---------------------------------------------------------------------------
 Running the Program
 ---------------------------------------------------------------------------
@@ -63,34 +44,8 @@ Instructions:
     written to a file whose name is based on the current system time.
 
 ---------------------------------------------------------------------------
-C++ Notes
----------------------------------------------------------------------------
-
-For the sake of simpler math routines and data structures, the code uses
-C++ over straight C. The code tries to stay away from most features of the
-language to keep it as simple as possible. This project attempts to break
-you into C++ easily.
-
-Questions about virtual functions, classes, or any C++ idioms are welcome.
-
----------------------------------------------------------------------------
 Source Files and Directory Structure
 ---------------------------------------------------------------------------
-
-The code base is rather big, so here's a description of the top-level
-directories and every header/source file pair we give you. You are free
-to edit any of them and add as many as you like, as long as the program
-behavior remains the same.
-
-Note: we omit the '.cpp' or '.hpp' from the source file names.
-
-You'll probably want to start by looking at project.hpp and all the
-headers in the math/ folder.
-
-Legend:
-#   - must edit this file
-*   - should look at header file
-
 README              -- this file
 writeup.txt#        -- Description of your project and implementation.
 
